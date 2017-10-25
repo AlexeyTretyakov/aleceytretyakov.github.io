@@ -467,7 +467,7 @@ body {
   color: #82786e !important;
 }
 .text-warning {
-  color: #879a9f !important;
+  color: #ffffff !important;
 }
 .text-danger {
   color: #e4d295 !important;
@@ -496,7 +496,7 @@ a.text-info:focus {
 }
 a.text-warning:hover,
 a.text-warning:focus {
-  color: #55666b !important;
+  color: #d39e00 !important;
 }
 a.text-danger:hover,
 a.text-danger:focus {
@@ -1341,7 +1341,7 @@ body {
   padding: .5rem 0;
 }
 .cid-qycPeyWgyq .navbar-dropdown.bg-color.transparent.opened {
-  /*background: #ffffff;*/
+  background: rgba(17, 17, 17, 0.79);
 }
 .cid-qycPeyWgyq a {
   font-style: normal;
