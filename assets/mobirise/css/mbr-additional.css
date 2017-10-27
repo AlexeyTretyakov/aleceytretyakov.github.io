@@ -15,21 +15,26 @@ body {
 }
 .display-1 {
   font-family: 'Raleway-Regular';
+  font-weight: bold;
   font-size: 4.25rem;
 }
 .display-1 > .mbr-iconfont {
+  font-weight: bold;
   font-size: 6.8rem;
 }
 .display-2 {
   font-family: 'Raleway-Regular';
+  font-weight: bold;
   font-size: 3rem;
 }
 .display-2 > .mbr-iconfont {
+  font-weight: bold;
   font-size: 4.8rem;
 }
 .display-4 {
   font-family: 'Raleway-Regular';
-  font-size: 1rem;
+  font-weight: bold;
+  font-size: 1.2rem;
 }
 .display-4 > .mbr-iconfont {
   font-size: 1.6rem;
@@ -496,7 +501,7 @@ a.text-info:focus {
 }
 a.text-warning:hover,
 a.text-warning:focus {
-  color: #d39e00 !important;
+  color: rgb(228, 210, 149) !important;
 }
 a.text-danger:hover,
 a.text-danger:focus {
@@ -548,10 +553,10 @@ a.text-black:focus {
 .btn-form:hover {
   cursor: pointer;
 }
-a,
+/*a,
 a:hover {
-  color: #149dcc;
-}
+  color: none;
+}*/
 .mbr-plan-header.bg-primary .mbr-plan-subtitle,
 .mbr-plan-header.bg-primary .mbr-plan-price-desc {
   color: #b4e6f8;
@@ -1341,7 +1346,8 @@ body {
   padding: .5rem 0;
 }
 .cid-qycPeyWgyq .navbar-dropdown.bg-color.transparent.opened {
-  background: rgba(17, 17, 17, 0.79);
+  background: rgb(17, 17, 17);
+    height: 100vh;
 }
 .cid-qycPeyWgyq a {
   font-style: normal;
@@ -1419,13 +1425,15 @@ body {
   padding-bottom: 0;
 }
 .cid-qycPeyWgyq .dropdown .dropdown-menu {
-  background: #ffffff;
+  background: rgba(17, 17, 17, 0.85);
   display: none;
   position: absolute;
   min-width: 5rem;
   padding-top: 1.4rem;
   padding-bottom: 1.4rem;
   text-align: left;
+  border: 1px solid #e4d295;
+  border-radius: 1em;
 }
 .cid-qycPeyWgyq .dropdown .dropdown-menu .dropdown-item {
   width: auto;
@@ -1738,7 +1746,7 @@ body {
   color: #767676;
 }
 .cid-qydlTyv0fK .card-title {
-  font-weight: 500;
+  font-weight: bold;
 }
 .cid-qydlTyv0fK .card-img {
   text-align: inherit;
@@ -1820,6 +1828,7 @@ body {
 }
 .cid-qydpEaSwou .panel-text {
   color: #232323;
+  font-weight:bold;
 }
 .cid-qydIk9LJKH {
   padding-top: 90px;
@@ -2457,7 +2466,7 @@ body {
   }
 }
 .cid-qycQASIFFC H5 {
-  color: #767676;
+  color: #ffffff;
 }
 .cid-qycQASIFFC P {
   color: #767676;
